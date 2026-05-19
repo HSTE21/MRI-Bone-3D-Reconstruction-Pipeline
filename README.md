@@ -63,20 +63,20 @@ Detailed reconstruction metrics for Project Group 1.
 
 ```mermaid
 graph TD
-    A[Segmented NIfTI Volume] --> B{Connectivity Analysis}
-    B --> C[Isolate Radius Component]
-    B --> D[Isolate Ulna Component]
-    C --> E[Gaussian Volume Smoothing]
-    D --> F[Gaussian Volume Smoothing]
-    E --> G[Marching Cubes Extraction]
-    F --> H[Marching Cubes Extraction]
-    G --> I[Hole Filling & Repair]
-    H --> J[Hole Filling & Repair]
-    I --> K[Taubin Smoothing (300 iter)]
-    J --> L[Taubin Smoothing (300 iter)]
-    K --> M[Final Manifold Radius STL]
-    L --> N[Final Manifold Ulna STL]
-    M --> O[Measurement & Logging]
+    A["Segmented NIfTI Volume"] --> B{"Connectivity Analysis"}
+    B --> C["Isolate Radius Component"]
+    B --> D["Isolate Ulna Component"]
+    C --> E["Gaussian Volume Smoothing"]
+    D --> F["Gaussian Volume Smoothing"]
+    E --> G["Marching Cubes Extraction"]
+    F --> H["Marching Cubes Extraction"]
+    G --> I["Hole Filling & Repair"]
+    H --> J["Hole Filling & Repair"]
+    I --> K["Taubin Smoothing (300 iter)"]
+    J --> L["Taubin Smoothing (300 iter)"]
+    K --> M["Final Manifold Radius STL"]
+    L --> N["Final Manifold Ulna STL"]
+    M --> O["Measurement & Logging"]
     N --> O
 ```
 
