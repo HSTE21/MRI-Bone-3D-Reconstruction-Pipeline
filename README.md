@@ -63,6 +63,17 @@ Detailed reconstruction metrics for Project Group 1.
 
 ---
 
+## 🎥 3D Previews
+
+Animated 360° previews of the reconstructed bone models.
+
+| Radius Preview | Ulna Preview |
+|:---:|:---:|
+| ![Radius Preview](preview_radius.gif) | ![Ulna Preview](preview_ulna.gif) |
+| [View Radius STL (Interactive)](ProjectGroup1_Checkpoint2_Radius.stl) | [View Ulna STL (Interactive)](ProjectGroup1_Checkpoint2_Ulna.stl) |
+
+---
+
 ## 🔄 Workflow Flowchart
 
 ```mermaid
