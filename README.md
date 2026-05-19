@@ -16,7 +16,11 @@
 
 ## Project Overview
 
-This assignment focuses on the accurate transformation of pre-segmented MRI bone volumes into watertight 3D surface models. Utilizing existing binary masks of the **Radius** and **Ulna**, the pipeline implements a robust reconstruction workflow including Gaussian pre-processing, isosurface extraction, and advanced mesh refinement to ensure technical manifold integrity and precise anatomical representation.
+This assignment focuses on the accurate transformation of pre-segmented MRI bone volumes into watertight 3D surface models. It builds directly upon the results of **Assignment 1**, where the initial segmentation was performed. The input masks used in this pipeline were generated using the automated watershed approach developed in the following repository:
+
+👉 **[Automated-Radius-Ulna-Phantom-Segmentation](https://github.com/HSTE21/Automated-Radius-Ulna-Phantom-Segmentation)**
+
+Utilizing these existing binary masks of the **Radius** and **Ulna**, the pipeline implements a robust reconstruction workflow including Gaussian pre-processing, isosurface extraction, and advanced mesh refinement to ensure technical manifold integrity and precise anatomical representation.
 
 ---
 
