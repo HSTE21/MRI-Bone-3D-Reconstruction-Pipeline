@@ -1,0 +1,3 @@
+bone,verts_before,faces_before,is_manifold,verts_after,faces_after,final_is_manifold,length_mm
+Radius,7330,14656,True,7330,14656,True,162.94645309448242
+Ulna,7256,14512,True,7256,14512,True,176.22539901733398
